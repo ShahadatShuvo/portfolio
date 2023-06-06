@@ -2,16 +2,17 @@ import React from "react";
 
 import html from "../assets/html.png";
 import css from "../assets/css.png";
+import tailwind from "../assets/tailwind.png";
+import mui from "../assets/mui.png";
 import javascript from "../assets/javascript.png";
 import reactImage from "../assets/react.png";
 import nextjs from "../assets/nextjs.png";
-import graphql from "../assets/graphql.png";
+import django from "../assets/django.png";
+import REST from "../assets/rest.png";
 import github from "../assets/github.png";
-import tailwind from "../assets/tailwind.png";
-import node from "../assets/node.png";
-import express from "../assets/express.png"
-import mongodb from "../assets/mongodb.png"
-import redux from "../assets/redux.png"
+import sql from "../assets/sql.png";
+import solving from "../assets/ssolving.png";
+import redux from "../assets/redux.png";
 const Experience = () => {
   const techs = [
     {
@@ -28,63 +29,71 @@ const Experience = () => {
     },
     {
       id: 3,
-      src: javascript,
-      title: "JavaScript",
-      style: "shadow-yellow-500",
-    },
-    {
-      id: 4,
-      src: reactImage,
-      title: "React",
-      style: "shadow-blue-600",
-    },
-    {
-      id: 5,
-      src: node,
-      title: "NodeJs",
-      style: "shadow-green-400",
-    },
-    {
-      id: 6,
-      src: nextjs,
-      title: "Next JS",
-      style: "shadow-white",
-    },
-    {
-      id: 7,
-      src: graphql,
-      title: "GraphQL",
-      style: "shadow-pink-400",
-    },
-    {
-      id: 8,
-      src: github,
-      title: "GitHub",
-      style: "shadow-gray-400",
-    },
-    {
-      id: 9,
       src: tailwind,
       title: "Tailwind",
       style: "shadow-sky-400",
     },
     {
-      id: 10,
-      src: express,
-      title: "Express",
+      id: 4,
+      src: mui,
+      title: "Material Ui",
+      style: "shadow-sky-400",
+    },
+    {
+      id: 5,
+      src: javascript,
+      title: "JavaScript",
+      style: "shadow-yellow-500",
+    },
+    {
+      id: 6,
+      src: reactImage,
+      title: "React",
+      style: "shadow-blue-600",
+    },
+    {
+      id: 7,
+      src: nextjs,
+      title: "Next JS",
       style: "shadow-white",
     },
     {
+      id: 8,
+      src: django,
+      title: "Django",
+      style: "shadow-green-400",
+    },
+
+    {
+      id: 9,
+      src: REST,
+      title: "Django REST Framework",
+      style: "shadow-pink-400",
+    },
+    {
+      id: 10,
+      src: github,
+      title: "GitHub",
+      style: "shadow-gray-400",
+    },
+
+    {
       id: 11,
-      src: mongodb,
-      title: "MongoDB",
-      style: "shadow-green-500",
+      src: sql,
+      title: "SQL",
+      style: "shadow-white",
     },
     {
       id: 12,
       src: redux,
       title: "Redux",
       style: "shadow-purple-500",
+    },
+    {
+      id: 13,
+      src: solving,
+      title: "Problem Solving",
+      style: "shadow-green-500",
     },
   ];
 
@@ -98,7 +107,10 @@ const Experience = () => {
           <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">
             Experience
           </p>
-          <p className="py-6">These are the technologies I've worked with and used them in my projects.</p>
+          <p className="py-6">
+            These are the technologies I've worked with and used them in my
+            projects.
+          </p>
         </div>
 
         <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">

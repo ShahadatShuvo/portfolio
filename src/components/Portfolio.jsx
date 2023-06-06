@@ -1,48 +1,48 @@
 import React from "react";
-import api from "../assets/portfolio/api.jpg";
-import apod from "../assets/portfolio/apod.jpg";
-import iptracker from "../assets/portfolio/iptracker.jpg";
-import nftportal from "../assets/portfolio/nftportal.jpg";
-import webpostman from "../assets/portfolio/webpostman.jpg";
-import waveportal from "../assets/portfolio/waveportal.jpg";
+import tenzis from "../assets/portfolio/Tenzies-Game.png";
+import interactive from "../assets/portfolio/interactive.png";
+import invoice from "../assets/portfolio/invoice.png";
+import quiz from "../assets/portfolio/quiz.png";
+import calculator from "../assets/portfolio/calculator.png";
+import timer from "../assets/portfolio/timer.png";
 
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: api,
-      link: 'https://crypto-info-api.cyclic.app/',
-      repo: 'https://github.com/rahulkarda/crypto-info-api'
+      src: tenzis,
+      link: "https://shahadat-react-tenzies-game.netlify.app",
+      repo: "https://github.com/ShahadatShuvo/Tenzies-Game-react",
     },
     {
       id: 2,
-      src: webpostman,
-      link: 'https://webpostman.netlify.app/',
-      repo: 'https://github.com/rahulkarda/Web-Postman'
+      src: interactive,
+      link: "https://angry-sammet-8f4e5b.netlify.app/",
+      repo: "https://github.com/ShahadatShuvo/Interactive-cares-home-design",
     },
     {
       id: 3,
-      src: apod,
-      link: 'https://apodbyrahul.netlify.app/',
-      repo: 'https://github.com/rahulkarda/NASA-APOD'
+      src: invoice,
+      link: "https://invoice-app-shahadat.netlify.app/",
+      repo: "https://github.com/ShahadatShuvo/Invoice-React",
     },
     {
       id: 4,
-      src: waveportal,
-      link: 'https://waveatrahul.netlify.app/',
-      repo: 'https://github.com/rahulkarda/Wave-Portal'
+      src: quiz,
+      link: "https://quizzical-shahadat-shuvo.netlify.app/",
+      repo: "https://github.com/ShahadatShuvo/Quizzical",
     },
     {
       id: 5,
-      src: nftportal,
-      link: 'https://nftportalbyrahul.netlify.app/',
-      repo: 'https://github.com/rahulkarda/NFT-Portal'
+      src: calculator,
+      link: "https://shahadatshuvo.github.io/Js-Calculator/",
+      repo: "https://github.com/ShahadatShuvo/Js-Calculator",
     },
     {
       id: 6,
-      src: iptracker,
-      link: 'https://trackmyip.netlify.app/',
-      repo: 'https://github.com/rahulkarda/IP-Address-Tracker'
+      src: timer,
+      link: "https://elastic-jackson-f21ae3.netlify.app/",
+      repo: "https://github.com/ShahadatShuvo/Digital-Clock",
     },
   ];
 
@@ -68,10 +68,16 @@ const Portfolio = () => {
                 className="rounded-md duration-200 hover:scale-105"
               />
               <div className="flex items-center justify-center">
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105" onClick={ () => window.open(link, '_blank')}>
+                <button
+                  className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
+                  onClick={() => window.open(link, "_blank")}
+                >
                   Demo
                 </button>
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105" onClick={ () => window.open(repo, '_blank')}>
+                <button
+                  className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
+                  onClick={() => window.open(repo, "_blank")}
+                >
                   GitHub
                 </button>
               </div>

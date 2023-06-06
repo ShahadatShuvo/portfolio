@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
+import me from "../assets/me.svg";
 
 const NavBar = () => {
   const [nav, setNav] = useState(false);
@@ -31,8 +32,9 @@ const NavBar = () => {
   return (
     <div className="flex justify-between items-center w-full h-20 px-4 text-white bg-black fixed nav">
       <div>
-        {/* <h1 className="text-5xl font-signature ml-2"><a className="link-underline hover:transition ease-in-out delay-150 hover:underline hover:decoration-solid" href="https://rahulkarda.netlify.app">Rahul</a></h1> */}
-        <h1 className="text-5xl font-signature ml-2"><a className="link-underline link-underline-black" href="https://rahulkarda.netlify.app" target="_blank" rel="noreferrer">Rahul</a></h1>
+        <a href="/">
+          <img src={me} alt="Shahadat" className="w-20 h-20" />
+        </a>
       </div>
 
       <ul className="hidden md:flex">

@@ -1,13 +1,17 @@
 import React from "react";
 
-function Footer(){
-    return(
-        <div class="text-center p-6 bg-black footer">
-        <span class="text-white">&copy; 2023 Copyright - </span>
-        <a class="link-underline text-white font-bold" href="https://rahulkarda.netlify.app">Rahul Karda</a>
-      </div>
-    )
+function Footer() {
+  return (
+    <div className="text-center p-6 bg-black footer">
+      <span className="text-white">&copy; 2023 Copyright - </span>
+      <a
+        className="link-underline text-white font-bold"
+        href="https://github.com/ShahadatShuvo"
+      >
+        Mohammad Shahadat Hossain
+      </a>
+    </div>
+  );
 }
 
-
-export default Footer
+export default Footer;
