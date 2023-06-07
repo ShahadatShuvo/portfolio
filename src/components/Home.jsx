@@ -11,7 +11,7 @@ const Home = () => {
       name="home"
       className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 home"
     >
-      <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
+      <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-between h-full px-4 md:flex-row">
         <div className="w-[50%] small-screen hidden mt-10 md:mt-0">
           <img
             src={me}
@@ -73,7 +73,7 @@ const Home = () => {
             </Link>
           </div>
         </div>
-        <div className="big-screen flex justify-end w-[30%]">
+        <div className="big-screen flex justify-end w-[35%]">
           <img src={me} alt="profile" className="rounded-full " />
         </div>
       </div>
