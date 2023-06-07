@@ -3,7 +3,7 @@ import { FaGithub, FaLinkedin, FaFacebookF } from "react-icons/fa";
 
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
-import resume from "../assets/resume.pdf";
+import resume from "../assets/cvShahadat.pdf";
 const SocialLinks = () => {
   const links = [
     {

@@ -27,11 +27,11 @@ const Home = () => {
                 sequence={[
                   // Same String at the start will only be typed once, initially
                   "I am Shahadat",
-                  3000,
+                  4000,
                   "I am Hossain",
-                  3000,
+                  4000,
                 ]}
-                speed={30}
+                speed={20}
                 repeat={Infinity}
               />
             </p>
@@ -42,13 +42,13 @@ const Home = () => {
                 sequence={[
                   // Same String at the start will only be typed once, initially
                   "A Full Stack Web Developer",
-                  1000,
+                  2000,
                   "A Frontend React Developer",
-                  1000,
+                  2000,
                   "A Backend Django Developer",
-                  1000,
+                  2000,
                 ]}
-                speed={50}
+                speed={40}
                 repeat={Infinity}
               />
             </p>
